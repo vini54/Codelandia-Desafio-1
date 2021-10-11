@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Blog - Codelândia</title>
+</head>
+<body>
+   <header>
+      <div class="container">
+         <div class="nav">
+            <h3>Codelândia</h3>
+            <h3>Blog</h3>
+         </div>
+         <div class="search-input">
+            <i class="uil uil-search"></i>
+            <input type="text" name="search" id="search" placeholder=" Pesquisar no blog">
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="container">
+         <article class="cards">
+            <div class="span">
+               <span>02 de jul, 2021</span>
+               <span><i class="uil uil-heart"></i></span>
+            </div>
+            <h3 class="title">Agora é oficial: o Windows 11 está vindo</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+         </article>
+         <article class="cards">
+            <div class="span">
+               <span>02 de jul, 2021</span>
+               <span><i class="uil uil-heart"></i></span>
+            </div>
+            <h3 class="title">Tim Berners-Lee vai leiloar código-fonte da web</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+         </article>
+         <article class="cards">
+            <div class="span">
+               <span>02 de jul, 2021</span>
+               <span><i class="uil uil-heart"></i></span>
+            </div>
+            <h3 class="title">Tem Firefox novo no pedaço e você vai querer migrar</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+         </article>
+         <article class="cards">
+            <div class="span">
+               <span>02 de jul, 2021</span>
+               <span><i class="uil uil-heart"></i></span>
+            </div>
+            <h3 class="title">John McAfee, criador do antivírus McAfee, morre</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.</p>
+         </article>
+      </div>
+   </main>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script>
+      const sr = ScrollReveal({
+          origin: 'top',
+          distance: '50px',
+          duration: 1500,
+          reset: true
+      });
+
+      ScrollReveal().reveal('.cards', { delay: 100 });
+      ScrollReveal().reveal('.span', { delay: 300 });
+      ScrollReveal().reveal('.title', { delay: 400 });
+      ScrollReveal().reveal('.description', { delay: 500 });
+</script>
+</body>
+</html>
